@@ -1,0 +1,6 @@
+				Git Initialize
+
+The empty repository can be created by git initilize.
+it doesn't have any commits at the beginning.
+git status - shows the changed files from last commit
+also it shows the latest commit from history. 
