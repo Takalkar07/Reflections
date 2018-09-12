@@ -1,0 +1,29 @@
+The git is useful for version control
+It is used in a big projects where alot of people are working on the same code set
+Using diff tool we can see the difference in the files automatically
+ 
+
+
+
+%%%%Lesson 1 reflection 2
+
+Git commits are checkpoints in the project
+Commits should be done on regular basis if there are logical changes in the project
+Commits should be done even if there are typos have been fixed
+or changes in the function features
+
+
+%%%%Why commit should reflect changes on each and every file in the repository
+
+The collection of the files which makes the project is whole called repository 
+The project is often dependent on the multiple files. If for example if we added some features we need to make modification to each and every file in the repository. Now if we make git diff on the commit id's we can see the difference in each commit on each file with respect to the previous commit
+
+
+Git clone is used to fetch the remote repository to the local machine
+Git log - gives the log of all commits history
+Git diff - shows what has been changed from the last commit
+every commit has its id... first four digits can be used to access that commit.
+
+
+
+
