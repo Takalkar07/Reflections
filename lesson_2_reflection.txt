@@ -3,4 +3,13 @@
 The empty repository can be created by git initilize.
 it doesn't have any commits at the beginning.
 git status - shows the changed files from last commit
-also it shows the latest commit from history. 
+also it shows the latest commit from history.
+
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory is the current folder where all files from the project are. Repository is the git directory which contains all the information over the cahnges made to the files in the history or from the time from which the repository has been intialised.
+
+stagging area acts like a buffer. we can add many files to staging area, which we feel should be in a particular commit. We club many files together to form a one commit.  
