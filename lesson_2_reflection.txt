@@ -12,4 +12,72 @@ How is the staging area different from the working directory and the repository?
 
 Working directory is the current folder where all files from the project are. Repository is the git directory which contains all the information over the cahnges made to the files in the history or from the time from which the repository has been intialised.
 
-stagging area acts like a buffer. we can add many files to staging area, which we feel should be in a particular commit. We club many files together to form a one commit.  
+stagging area acts like a buffer. we can add many files to staging area, which we feel should be in a particular commit. We club many files together to form a one commit. 
+
+
+
+
+
+Question 2
+How can you use the staging area to make sure you have one commit per logical change?
+
+Git diff can be used in many different ways
+There are main 3 sections on which the Git works 
+1. Working directory 
+
+2. Stagging Area 
+
+3. Repository
+
+The chnages from the working area can be stagged into the stagging area for the commit. Git diff can be used to see the changes made to the files in the working directory. git --stagged can be used to see the changes between the stagged files and the most recent commit. Git diff id1 id2 can be used to see the difference between two commits.
+
+ 
+
+Question 3
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+we we initialize the git repository there is only one branch.
+But if we have to try new features with different logics then we can form a new branch by git branch "name of that branch". then we can checkout that branch by git checkout branch name. we can make changes and make commit to that new branch.
+In this situations the branching is important.
+There are main three branches in the company master branch, feature branch and release branch.
+
+How the brancg graph helps us to undertstand the structure ?
+
+The make branches the branch graph shows how the new branch is evolve from the master or from any other branhc. Also it shows us the reachability for that particular branch structure.
+
+
+Auto Merge Vs Manual Merge
+
+Git uses Auto merge when there is no merge conflict or git can solve it by its own. But when there is conflict which git can not solve we have to take care by our own to resolve that conflict.
+
+When merge conflict occurs in the particular file. That file will have three sections.
+
+ First: Head shows the current state of the file. 
+
+ Master : Shows the changes which have been made at current time step
+
+ And the current location where the conflict has been occured and we have to solve it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
