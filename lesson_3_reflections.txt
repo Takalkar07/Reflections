@@ -12,7 +12,10 @@ local repository. It changes the current state of your local to updated one.
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+-Forks When we have to clone the repository on the Git hub We use the Fork on Github. It points to the initial owner of that repository. We  can pull forked repository, pull make changes and push again.
+-Clones - we can copy the contain of the remote repository by cloning it to the local repository.
+
+-Branches - Branches can used locally to try out different features for the project.   
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
