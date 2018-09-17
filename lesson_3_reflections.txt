@@ -6,7 +6,8 @@ When there are many people working on the same project remotely.
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+- When we do the git pull origin --branchname it pulls the all commit from that branch present remotely to your
+local repository. It changes the current state of your local to updated one.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
