@@ -20,7 +20,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+--- When we know the last state of the remote locally (origin/master), we add commits on top of that, we can make git diff to see what changes have been made since the last sync of the local with remote master.	
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
