@@ -30,4 +30,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+--- When we make changes to the other branch than the local one, the master stays safe. We can try out new features or concepts on the new branches and if they are working fine or they are okay with everyone who is involve in the project then we can merge the two branches. 
+
+---Also creating the different branches helps us to work parallaly onto the same project.
+
